@@ -1,8 +1,8 @@
-- id: cpd
-  name: cpd
-  description: "Runs the Copy/Paste Detector (CPD)."
+- id: pmd
+  name: pmd
+  description: "Runs the PMD static code analyzer."
   language: docker
-  entry: /bin/bash /opt/run_cpd.sh
+  entry: /bin/bash /opt/run_pmd.sh
   files: \.java$
   require_serial: true
 
