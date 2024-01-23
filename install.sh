@@ -9,4 +9,4 @@ apt-get update && apt-get install --no-install-recommends -y ca-certificates wge
 cd /opt
 
 
-curl -LOJ checkstyle.jar 'https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.7/checkstyle-10.12.7-all.jar'
+curl -J -o checkstyle.jar 'https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.7/checkstyle-10.12.7-all.jar'
