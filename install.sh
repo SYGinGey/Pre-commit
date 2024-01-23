@@ -4,9 +4,9 @@ set -e
 
 CHECKSTYLE_RELEASE="https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.7/checkstyle-10.12.7-all.jar"
 
-yum install -y ca-certificates wget unzip curl bash jq
+apt-get update && apt-get install --no-install-recommends -y ca-certificates wget unzip curl bash jq
 
 cd /opt
 
 
-wget -nc -O checkstyle.jar "https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.7/checkstyle-10.12.7-all.jar"
+wget -nc -O checkstyle.jar 'https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.7/checkstyle-10.12.7-all.jar'

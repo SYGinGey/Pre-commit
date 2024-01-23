@@ -1,4 +1,4 @@
-FROM amazoncorretto:17
+FROM eclipse-temurin:17.0.6_10-jre
 
 COPY install.sh /opt
 RUN bash /opt/install.sh
